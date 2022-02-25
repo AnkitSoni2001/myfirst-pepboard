@@ -1,0 +1,21 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "appBackend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js",
+    "start": "node appBackend.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
